@@ -1,0 +1,81 @@
+h1
+{
+    text-align: center;
+    font-family: verdana;
+}
+.navbar ul
+{
+    list-style: none;
+    background-color: darkblue;
+ padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    
+}
+.navbar a:hover{
+    background-color: darkcyan;
+}
+.navbar li{
+    float: right;
+}
+.body
+{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+.header
+{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+}
+section
+{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+
+.home .home-content h1
+{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.home-img
+{
+    border-radius: 50%;
+}
+
+.home-img img{
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid blue ;
+    cursor: pointer;
+    transition: 0.2s linear;
+}

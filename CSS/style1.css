@@ -1,0 +1,37 @@
+body
+{
+	background-color: darkseagreen;
+}
+h1
+{
+	text-align: center;
+}
+h3
+{
+	background-color: blueviolet; 
+	font-family: papyrus; 
+	border: 3px dashed red; 
+	color: gray;
+}
+p
+{
+	font-size: 25px;
+	color: purple;
+}
+table, th, td, tr
+{
+	border: 5px solid darkblue;
+	border-collapse: collapse;
+}
+th
+{
+	background-color: darkorange;
+}
+td
+{
+	text-align: center;
+}
+tr:hover
+{
+	background-color: lightyellow;
+}

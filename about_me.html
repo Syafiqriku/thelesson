@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/style2.css">
+    <style>
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: darkred;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .back-btn:hover {
+            background-color: red;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin: 10px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Body styling */
+        body {
+            background-image: url('images/your-background-image.jpg'); /* Add your background image path here */
+            background-size: cover;    /* Ensures the background image covers the entire viewport */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents the background from repeating */
+            background-color: beige; /* Fallback color in case the image doesn't load */
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ensure the body takes up the full height of the viewport */
+        }
+        
+        main {
+            padding: 20px;
+            color: white; /* Makes the text more readable against the background */
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 50%; /* Adjust size as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>RIKU</h1>
+
+    <nav class="navbar">
+        <ul>
+            <li style="color: white;"><a href="">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="my_education.html">Education</a></li>
+            <li><a href="about_me.html">About</a></li>
+            <li><a href="">Home</a></li>
+        </ul>
+    </nav>
+
+    <button class="back-btn" onclick="window.location.href='individual_ass.html'">Go Back</button>
+
+    <main>
+        <p style="color: black;">Hi, My name is Muhammad Syafiq Aiman Bin Che Mohd Yusoff, You can call me Syafiq Aiman. I live in Kampung Perupok, Bachok, Kelantan</p>
+    </main>
+
+    <img src="images/BIODATA.png" alt="Biodata Image">
+
+</body>
+</html>

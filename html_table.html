@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML TABLE</title>
+
+
+    <style>
+    	table, tr, th, td
+    	{
+    		border:2px solid skyblue;
+    		border-collapse: collapse;
+    	}
+    	th, td
+    	{
+    		padding: 45px;
+    	}
+    	th
+    	{
+    		background-color: blueviolet;
+    		color: darkred;
+    	}
+    	tr:nth-child(odd)
+    	{
+    		background-color: yellowgreen;
+    	}
+    	td
+    	{
+    		text-align: center;
+    	}
+    	tr:hover
+    	{
+    		background-color: red;
+    	}
+    </style>
+
+
+</head>
+<body>
+
+<h1>basic table</h1>
+
+<table style="width:100%">
+	<caption>table 1: basic HTML table</caption>
+	<tr>
+		<th style="width:20%">Name</th>
+		<th style="width:10%">student number</th>
+		<th style="width:10%">picture</th>
+		<th style="width:15%">phone number</th>
+	</tr>
+
+	<tr>
+		<td>muhammad syafiq aiman bin che mohd yusoff</td>
+		<td>2022499716</td>
+		<td><img src="images/TAXI.jpg" style="height: 100px;"></td>
+		<td>0198650211</td>
+	</tr>
+</table>
+
+<h1>colspan</h1>
+<table style="width:100%">
+	<tr>
+		<th>name</th>
+		<th>student id</th>
+		<th colspan="3">subject</th>
+	</tr>
+
+	<tr>
+		<td>syafiq aiman</td>
+		<td>2022499716</td>
+		<td>IMD245</td>
+		<td>IMD457</td>
+		<td>IMD311</td>
+	</tr>
+</table>
+
+<h1>rowspan</h1>
+
+<table style="width:70%">
+	<tr>
+		<th>name</th>
+		<td>syafiq</td>
+	</tr>
+
+	<tr>
+		<th rowspan="2">email</th>
+		<td>syafiq@gmail.com</td>
+	</tr>
+
+	<tr>
+		<td>syafiqaiman@gmail.com</td>
+	</tr>
+
+	<tr>
+		<th>alamat</th>
+		<td rowspan="2">kelantan</td>
+	</tr>
+	<tr>
+		<th>alamat rumah</th>
+	</tr>
+</table>
+</body>
+</html>
